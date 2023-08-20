@@ -1,0 +1,170 @@
+/* Урок 1 */
+
+:root {
+    background: #fff;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box div {
+    background: green;
+}
+.box p {
+    background: red;
+}
+
+.brown {
+    background: brown;
+    color: #fff;
+}
+
+ul > li {
+    background: red;
+}
+
+.header-button + span {
+    background: red;
+}
+
+.susid ~ p {
+    background: blue;
+    color: #fff;
+}
+
+.salo , #bread {
+    background: yellow;
+}
+
+/* Урок 2 */
+
+/* Завдання 1 */
+li:first-child {
+    color: #fff;
+}
+
+/* Завдання 2 */
+.second-task > ul:first-of-type > li:first-child {
+    color: yellow;
+}
+
+/* Завдання 3 */
+.third-task > ul:last-of-type > li:first-child {
+    color: yellow;
+}
+
+/* Завдання 4 */
+.four-task > ul > li:last-child {
+    background: yellow;
+}
+
+/* Завдання 5 */
+.five-task > ul:last-of-type > li:last-child {
+    color: white;
+}
+
+/* Завдання 6 */
+.only-child-task > div:only-child {
+    color: red;
+}
+
+/* Завдання 7 */
+.seven-task > p:first-of-type {
+    background: red;
+}
+
+/* Завдання 8 */
+.eight-task > p:last-of-type {
+    background: red;
+}
+
+.text-wrapper > p:only-of-type {
+    background: yellow;
+}
+
+/* Урок 3 */
+
+/* Завдання 1 */
+.lesson-three-task-one a[href] {
+    color: #fff;
+}
+
+/* Завдання 2 */
+.lesson-three-task-two > li[value='1'] {
+    color: yellow;
+}
+
+/* Завдання 3 */
+.lesson-three-task-three > li[value='3'] {
+    background: red;
+}
+.lesson-three-task-three > li:first-of-type {
+    color: black; 
+}/* бо колір тексту білий ще з уроку 2 завд 1 li:first-child */
+
+/* Завдання 4 */
+.lesson-three-task-four > button[class~="primary"] {
+    background: blue;
+}
+
+/* Завдання 5 */
+.lesson-three-task-five > button[class|="secondary"] {
+    background: red;
+}
+
+/* Завдання 6 */
+.lesson-three-task-six > ul > li[class^="b"] {
+    background: #fff;
+    color:green;
+}
+
+/* Завдання 7 */
+.lesson-three-task-seven > ul > li[class*="on"] {
+    background: #fff;
+    color:green;
+}
+
+/* Завдання 8 */
+.lesson-three-task-eight  span[class$="s"] {
+    background: #fff;
+    color:blue;
+}
+
+/* Завдання 9 */
+.lesson-three-task-nine > h2::first-letter {
+        color:red;
+}
+
+/* Завдання 10 */
+.lesson-three-task-ten > p::first-line {
+    background: yellow;
+}/* внесені зміни в завдання,додано тег <br> у всі теги <p> крім першого */
+
+
+/* Завдання 11 */
+.lesson-three-task-eleven > input::placeholder {
+    background: red;
+}
+
+/* Завдання 12 */
+.lesson-three-task-twelve > ul > li::before {
+    content: "➤" ;
+}
+
+/* Завдання 13 */
+.lesson-three-task-thirteen > ul > li::after {
+    content: "➤" ;
+}
